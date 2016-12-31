@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: "微软雅黑";	
+}
+#extend:hover{
+	height: 250px;
+}
+#extend{
+	overflow:hidden;
+	height:80px;
+	background:#222;
+	transition:height ease 0.5s;
+	margin: 0 auto;
+}
+.top{
+	height: 80px;
+	background: #111;
+}
+.top-medium{
+	width: 70%;
+	margin: 0 auto;
+}
+.top>.top-medium span{
+	width:150px;
+	text-align:center;
+	height:250px;
+	display:inline-block;
+	font-weight:bold;
+	font-size:14px;
+	margin-left: 50px;
+	vertical-align:top;
+}
+.top>.top-medium span:hover{
+	background:#222;
+}
+.top>.top-medium>span>a:hover{
+	background: #777;
+	text-decoration: underline;
+}
+span>#title a{
+	font-size: 16px;
+	color: white;
+}
+.top-medium p{
+	margin-top: 30px;
+}
+.top-medium p a{
+	color: #03b0e5;
+}
+#padding{
+	height: 250px;
+	background: url(../img/banner.jpg) no-repeat;
+	margin-top: -40px;
+	/*background-size: cover;*/
+	background-position: center;
+}
+#content{
+	height: 900px;
+	margin-top:700px;
+	margin-left: 15%;
+	margin-right: 15%;
+	background: white;
+	max-width: 1920px;
+	/*margin: 0 auto;*/
+	/*position: relative;*/
+}
+#content-title{
+	/*margin:0 15%;*/
+	/*position: absolute;*/
+}
+#content-title>h2{
+	text-align: center;
+	font-style: bold;
+	font-size: 50px;
+}
+#ph1{
+	position: absolute;
+	margin-top: 50px;
+	font-size: 16px;
+}
+#ph2-title{
+	margin-top: 100px;
+}
+#ph2-title>p{
+	margin-bottom: 4px;
+}
+#ph2-title img{
+	float: right;
+}
+#ph3-title{
+	margin-top: 50px;
+}
+#ph3-title>p{
+	margin-bottom: 4px;
+}
+.footer{
+	width: 1920px;
+	height: 250px;
+	background: url(../img/footer.jpg) no-repeat ;
+	background-size: contain ;
+}
+
